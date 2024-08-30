@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:quetes_js_sql/view/fav_page.dart';
+import 'package:quetes_js_sql/view/splash_screen.dart';
 
 import 'view/details.dart';
 import 'view/home_page.dart';
-import 'view/splash_screen.dart';
 
 void main() {
   runApp(MyApp());

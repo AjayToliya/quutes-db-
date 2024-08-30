@@ -12,9 +12,11 @@ class SplashScreen extends StatelessWidget {
 
     return Scaffold(
       body: Center(
-        child: Text(
-          'Welcome to Quotes',
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+        child: Image.asset(
+          'assets/images/1.jpg',
+          fit: BoxFit.cover,
+          width: double.infinity,
+          height: double.infinity,
         ),
       ),
     );
