@@ -28,7 +28,7 @@ This is a Flutter-based application that displays quotes categorized by differen
 - **API Integration**: Allows fetching additional quotes from a remote server.
 - **Animations**: Custom animations for carousel sliders and transitions.
 
-
+## Images
 ![Screenshot_20240830_153935](https://github.com/user-attachments/assets/3652f277-36a9-4018-9da5-24a158267305)
 ![Screenshot_20240830_154225](https://github.com/user-attachments/assets/caa4d9ae-16e0-4095-8166-887f49d18d14)
 ![Screenshot_20240830_154232](https://github.com/user-attachments/assets/f8b1d189-519a-4d2a-a814-a324aae360a8)
