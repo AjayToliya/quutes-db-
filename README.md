@@ -34,3 +34,8 @@ This is a Flutter-based application that displays quotes categorized by differen
 ![Screenshot_20240830_154232](https://github.com/user-attachments/assets/f8b1d189-519a-4d2a-a814-a324aae360a8)
 ![Screenshot_20240830_154604](https://github.com/user-attachments/assets/72ab646d-adff-4bfb-88ec-6f5e74155601)
 ![Screenshot_20240830_154610](https://github.com/user-attachments/assets/21460b5d-d4b9-4139-8b5f-358b4d8d65bf)
+
+## video
+
+https://github.com/user-attachments/assets/c7184747-86ae-44fc-8630-e44f3d8ac38c
+
