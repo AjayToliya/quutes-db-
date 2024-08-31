@@ -1,20 +1,33 @@
-# quetes_js_sql
+# Flutter Quotes App
 
-A new Flutter project.
+This is a Flutter-based application that displays quotes categorized by different themes, with the ability to switch between light and dark modes. The app uses SQLite for data storage and provides an engaging user interface with animations and background images.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Splash Screen**: A splash screen with a full-screen image that transitions to the main categories page after 2 seconds.
+- **Category-Wise Quotes**: Quotes are displayed based on different categories (fetched from a local JSON file or an API).
+- **SQLite Integration**: All quotes are stored in a local SQLite database for offline access.
+- **Theme Switching**: Users can toggle between light and dark modes.
+- **Animations & UI Enhancements**: Includes a carousel slider and background images for a more dynamic and engaging UI.
+- **Edit Quotes**: Users can edit a quote from the details screen, which opens a bottom sheet with options.
+- **Search**: Ability to search for specific categories or quotes.
 
-A few resources to get you started if this is your first Flutter project:
+## Screens
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Splash Screen**: Displays a full-screen image for 2 seconds before navigating to the categories page.
+- **Home Page**: Displays a list of quote categories with icons.
+- **Quote Details Page**: Displays individual quotes with options to edit.
+- **Favorites**: Users can save their favorite quotes and access them from a dedicated page.
 
-For help getting star
-ted with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Technologies Used
+
+- **Flutter**: Front-end framework for mobile application development.
+- **GetX**: Used for state management and navigation.
+- **SQLite**: For local storage of quotes.
+- **Local JSON**: Base collection of quotes is provided via a JSON file.
+- **API Integration**: Allows fetching additional quotes from a remote server.
+- **Animations**: Custom animations for carousel sliders and transitions.
+
 
 ![Screenshot_20240830_153935](https://github.com/user-attachments/assets/3652f277-36a9-4018-9da5-24a158267305)
 ![Screenshot_20240830_154225](https://github.com/user-attachments/assets/caa4d9ae-16e0-4095-8166-887f49d18d14)
