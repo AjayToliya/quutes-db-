@@ -29,8 +29,14 @@ class DatabaseHelper {
     if (database == null) {
       await initDataBase();
     }
-    String query =
-        "INSERT INTO quotes (category, quote, author) VALUES (?, ?, ?);";
+    String query = '''
+CREATE TABLE IF NOT EXISTS quotes (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  category TEXT NOT NULL,
+  quote TEXT NOT NULL,
+  author TEXT NOT NULL
+);
+''';
     List<dynamic> args = [quote.category, quote.quote, quote.author];
 
     int id = await database!.rawInsert(query, args);
